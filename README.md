@@ -12,11 +12,11 @@ git clone https://github.com/dhavalpadaya/covaccine_alerts.git covaccine_alerts
 # Change directory
 cd covaccine_alerts
 
-# Go To Folder runnable jar file is stored
+# Go To Folder where runnable jar file is stored
 cd runnable_jar
 ```
 
-Make Following changes in configuration file before execution runnable jar
+Make Following changes in configuration file before executing runnable jar
 
 ## alerts_config.txt
 
@@ -52,10 +52,12 @@ Encoded String :- dGVzdDEyMw==
 - Provide execution period in number. For this given period, program will call cowin api and fetch data from it.
 - If you have provided 30, then program will call cowin api every 30 minutes to get data.
 
+```bash
 fromAddress=test@gmail.com
 fromAddressPass=test123
 fromAddressPassEncode=dGVzdDEyMw==
 executionPeiodInMinutes=30
+```
 
 ## alert_schedule_entry.txt
 
