@@ -24,6 +24,16 @@ Make Following changes in configuration file before executing runnable jar
 
 - Here provide email address which will be used to send emails to notify users>
 
+## Note :- If you use gmail account as fromAddress then you will have to enable 'less secure apps access' from Google Setting of this email.
+
+Follow these steps to enable 'less secure apps access'
+```bash
+Steps :-
+1. Go Google Account Settings -> Security
+2. There will be option called 'Less Secure Apps Access'
+3. Turn On 'Less Secure Apps Access' and save setting.
+```
+
 ### fromAddressPass
 
 - Provide password of provided Email Address, If you do not want to provide actual password directly, you can provide encoded password in fromAddressPassEncode
