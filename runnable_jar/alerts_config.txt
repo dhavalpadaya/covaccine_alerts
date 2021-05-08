@@ -1,0 +1,4 @@
+fromAddress=test@gmail.com
+fromAddressPass=test123
+fromAddressPassEncode=dGVzdDEyMw==
+executionPeiodInMinutes=30
